@@ -1,7 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(1.jpeg);
+    background-size: cover;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
 .innerbox{
     border: 2px solid black;
     margin: 30px;
     border-radius: 20px;
+   backdrop-filter: blur(3px);
+    filter: drop-shadow(0px 0px 18px white);
 }
 .header{
     height: 50px;
@@ -9,21 +26,28 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: lightcoral;
+    background-color: rgb(39, 30, 30);
     border-radius: 17px;
+    border-width: 6px;
+    border-color: black;
+   opacity: 0.45;
 
 }
 span{
-    margin-right: 972px;
-    margin-left: 60px;
+    margin-right: 43%;
+    margin-left: 10%;
 }
 .nav{
     margin-right: 34px;
-    font-family: "Poppins", sans-serif;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      color: white;
 }
 .feel{
     display: block;
     text-align: center;
+    font-size: larger;
+   
     
 }
 button{
@@ -36,9 +60,12 @@ button{
     font-size: 17px;
 }
 .beat{
-    font-size: 96px;
+    font-size: 100px;
     margin-top: 86px;
     font-family: "Poppins", sans-serif;
+     background-clip: text;
+    background-image: linear-gradient(to right,#6a5acd,#c54b8c,#b284be);
+    color: transparent;
 }
 .line{
     font-size: 29px;
