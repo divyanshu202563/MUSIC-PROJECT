@@ -1,5 +1,57 @@
 .innerbox{
     border: 2px solid black;
     margin: 30px;
+    border-radius: 20px;
 }
+.header{
+    height: 50px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: lightcoral;
+    border-radius: 17px;
 
+}
+span{
+    margin-right: 972px;
+    margin-left: 60px;
+}
+.nav{
+    margin-right: 34px;
+    font-family: "Poppins", sans-serif;
+}
+.feel{
+    display: block;
+    text-align: center;
+    
+}
+button{
+    margin-top: 20px;
+    padding: 22px;
+    border-radius: 10px;
+    width: 148px;
+    background-color: #33B9FF;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+}
+.beat{
+    font-size: 96px;
+    margin-top: 86px;
+    font-family: "Poppins", sans-serif;
+}
+.line{
+    font-size: 29px;
+    margin-top: -80px;
+    font-family: "Poppins", sans-serif;
+}
+.Popular{
+    margin-top: 60px;
+}
+.play{
+    display: flex;
+}
+.photo{
+    margin-right: 70px;
+    margin-left: 80px;
+}
