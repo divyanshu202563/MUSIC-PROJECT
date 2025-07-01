@@ -1,3 +1,12 @@
+let  username = rompt("Enter your name:").toUpperCase() ;
+// This code prompts the user to enter their name and converts it to uppercase.
+
+let a =username[0] ;
+// This code extracts the first character of the username.
+
+let logo = document.querySelector(".logo img");
+ //IT IS USED TO SELECT THE LOGO IMAGE ELEMENT.
+
 
 let profileimage = {
 
@@ -28,3 +37,4 @@ let profileimage = {
     Y:"y.png" ,
     Z:"z.png" ,
 }
+ 

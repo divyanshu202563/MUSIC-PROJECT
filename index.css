@@ -151,6 +151,8 @@ body {
 .photo img {
     border-radius: 10px;
     align-self: center;
+    height: 35vh;
+    width: 30vb;
 }
 
 .photo img:hover {
