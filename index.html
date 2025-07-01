@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Vibe-Loop</title>
+
+
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,14 +20,31 @@
         href="https://fonts.googleapis.com/css2?family=Akronim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=UoqMunThenKhung&display=swap"
         rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akronim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=UoqMunThenKhung&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akronim&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=UoqMunThenKhung&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=graphic_eq" />
+
 </head>
 
 <body>
     <div class="outer">
 
         <div class="header">
-            <!-- <i class='bxr  bx-music'  ></i> -->
-            <img id ="logo" src ="Logo.png"  height="100px" alt="Logo" width="90px">
+
+            <div class="profile"> <img src=""  height="40px" width="40px"></div>
+
+            <p class="logo">Vibe-Loop <span class="material-symbols-outlined">  graphic_eq</span> </p>
             <a class="nav" href="#">Home</a>
             <a class="nav" href="#">Playlist</a>
             <a class="nav" href="#">Artists</a>
@@ -41,33 +59,44 @@
                 <h1 class="beat">Feel The Beat</h1>
                 <br>
                 <h3 class="line">Stream your favourite tracks anytime</h3>
-                <button>Listen Now</button>
+                <button id="listen">Listen Now</button>
             </div>
             <div class="content">
                 <div class="Popular">
-                    <h1>Popular Playlists</h1>
+                    <h1 id="heading"> Some Popular Playlists</h1>
+                    <br>
+                    <br>
                     <div class="play">
                         <div class="photo">
-                            <img src="sample.png" alt="" height='150'>
-                            <p class="chill">Chill Vibes</p>
+                            <img src="chill vibes.jpg" alt="chill" height='150'>
+
                         </div>
                         <div class="photo">
-                            <img src="sample.png" alt="" height='150'>
-                            <p class="Mix">Workout Mix</p>
+                            <img src="workout.jpg" alt="workout" height='150'>
+
                         </div>
                         <div class="photo">
-                            <img src="sample.png" alt="" height='150'>
-                            <p class="EDM">Top EDM</p>
+                            <img src="edm.jpeg" alt="edm" height='150'>
+
                         </div>
                         <div class="photo">
-                            <img src="sample.png" alt="" height='150'>
-                            <p class="Hits">Indie Hits</p>
+                            <img src="indie hits.jpeg" alt="indie" height='150'>
+
+                        </div>
+                        <div class="photo">
+                            <img src="lofi-beats.webp" alt="lofi" height='150'>
                         </div>
                     </div>
+
+
+
                 </div>
+
             </div>
         </div>
-    </div>
+
+        <script src="index.js"></script>
+        <script src="mapping.js"></script>
 </body>
 
 </html>
