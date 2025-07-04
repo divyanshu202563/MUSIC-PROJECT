@@ -39,14 +39,21 @@
 
 a{
     text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 .info{
-display: none;
+display:none;
 z-index: 1000;
-position: relative;
-top: 15vh;
-left: 10vh;
+position: absolute;
+top: 10vh;
+left: 0px;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.6);
+width: 30vb;
+height: 40vh;
+
 }
+
 
 #items{
     padding-left: 0%;
@@ -98,18 +105,21 @@ body {
     border-width: 6px;
     border-color: black;
     opacity: 0.95;
+    position: relative;
 
 }
 
 .logo {
     margin-right: 50vb;
-    margin-left: 18vb;
+    margin-left: 20vb;
     color: white;
     font-size: 40px;
     font-weight: 900;
     font-family: "Poppins", sans-serif;
     font-style: italic;
     text-shadow: 0px 0px 10px rgb(254, 6, 6);
+    width: 45vb;
+    display:inline-block
 
 
 
@@ -216,9 +226,33 @@ body {
 
 .photo img:hover {
     transform: scale(1.1);
-    transition: all 0.3s ease-out;
+    transition: all 0.5s ease-out;
     filter: drop-shadow((0px 0px 15px rgb(0, 0, 0)));
     box-shadow: 0px 0px 40px black;
 
 
+}
+
+.bio{
+     font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+ 
+}
+
+.bio:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+    transform: translateX(6px);
+}
+    
+
+ul{
+    padding-left: 0%;
+    width: 30vb;
+    height: 40vh;
+    position: relative;
+    
 }
