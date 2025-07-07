@@ -30,6 +30,5 @@ checkusername()
 
 let usernamelower = username.toLowerCase
 let length = username.length
-let a = biousername.innerHTML = ""  
+let a = biousername.innerHTML =  
 
-console.log(length)
