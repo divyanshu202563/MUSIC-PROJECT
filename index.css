@@ -5,12 +5,13 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid white;
     margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 2;
+    filter: drop-shadow(0 0 7px white);
 
 }
 
@@ -45,13 +46,15 @@ a{
 display:none;
 z-index: 1000;
 position: absolute;
-top: 10vh;
-left: 0px;
+top: 7vh;
+    left: 153vh;
 text-align: center;
 background-color: rgba(0, 0, 0, 0.6);
 width: 30vb;
-height: 40vh;
-
+    height: 19vh;
+border:2px solid black;
+border-radius: 5px;
+backdrop-filter: blur(10px);
 }
 
 
@@ -84,14 +87,15 @@ body {
 
 
 .innerbox {
-    background-image: url(5.jpeg);
+    /* background-image: url(5.jpeg); */
+    /* background-color: #28282B; */
     background-size: cover;
     border: 5px solid black;
     margin: 30px;
     border-radius: 11px;
     /* backdrop-filter: blur(3px); */
     /* filter: drop-shadow(0px 0px 18px white); */ 
-    background-color: #161a1d ;
+    background-color: black ;
 }
 
 .header {
@@ -116,13 +120,16 @@ body {
     font-size: 40px;
     font-weight: 900;
     font-family: "Poppins", sans-serif;
-    font-style: italic;
-    text-shadow: 0px 0px 10px rgb(254, 6, 6);
+    /* font-style: italic; */
+    text-shadow: 0px 0px 7px white;
     width: 45vb;
     display:inline-block
 
 
 
+}
+.logout{
+    display: flex;
 }
 
 .nav {
@@ -136,6 +143,10 @@ body {
     display: block;
     text-align: center;
     font-size: larger;
+    background-image: url(5.jpeg);
+    background-size: contain;
+    height: 351px;
+    /* margin-top: 0px; */
 
 
 }
@@ -165,11 +176,12 @@ body {
 
 .beat {
     font-size: 100px;
-    margin-top: 86px;
+    margin-top: 0px;
     font-family: "Poppins", sans-serif;
     background-clip: text;
     /* background-image: linear-gradient(to right, #3725a9, #aa1163, #5b0d6e); */
     color: white;
+    padding-top:89px;
     
 }
 
@@ -184,10 +196,12 @@ body {
 }
 
 .Popular {
-    margin-top: 60px;
-    background-color: white;
+    margin-top: 40px;
+    /* background-color: #343434; */
+    background-color: black;
     padding: 16px;
-    border-radius: 28px;
+    /* filter: drop-shadow(0 0 7px white); */
+    /* border-radius: 28px; */
 }
 
 #heading {
@@ -195,11 +209,12 @@ body {
     margin-left: 30px;
     font-family: "Poppins", sans-serif;
     font-weight: 850;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     border-radius: 24px;
     border: 1px solid black;
-    filter: drop-shadow(0 0 15px black);
+    filter: drop-shadow(0 0 5px white);
+    /* background: linear-gradient(to right,#343434,#28282B,#353935); */
 
 }
 
@@ -221,13 +236,13 @@ body {
     align-self: center;
     height: 35vh;
     width: 30vb;
-    border: 10px solid black;
+    border: 3px solid white;
 }
 
 .photo img:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-out;
-    filter: drop-shadow((0px 0px 15px rgb(0, 0, 0)));
+    filter: drop-shadow(0px 0px 5px white);
     box-shadow: 0px 0px 40px black;
 
 
@@ -239,6 +254,7 @@ body {
   font-style: normal;
   color: rgb(255, 255, 255);
   font-size: 23px;
+  list-style: none;
  
 }
 
@@ -255,4 +271,46 @@ ul{
     height: 40vh;
     position: relative;
     
+}
+.artists{
+    /* margin-top: 60px; */
+    background-color: black;
+    padding: 16px;
+    /* border-radius: 28px; */
+}
+
+.pfp img {
+    border-radius: 10px;
+    align-self: center;
+    height: 35vh;
+    width: 30vb;
+    border: 3px solid white;
+}
+
+.pfp img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
+    filter: drop-shadow(0px 0px 2px white);
+    box-shadow: 0px 0px 40px black;
+
+
+}
+.pfp{
+    text-align: center;
+    cursor: pointer;
+}
+
+.Art{
+    display: flex;
+    justify-content: space-around;
+}
+.artname{
+    font-family: "Poppins", sans-serif; 
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    border: 3px solid white ;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
 }
