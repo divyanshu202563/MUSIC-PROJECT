@@ -14,7 +14,7 @@ window.addEventListener("click", (event) => {
 
 });
 
- let username = prompt("ENTER YOUR NAME");
+ let username = pompt("ENTER YOUR NAME");
 
 function checkusername() {
     
@@ -28,7 +28,5 @@ function checkusername() {
 
 checkusername()
 
-let usernamelower = username.toLowerCase
-let length = username.length
-let a = biousername.innerHTML =  
+
 
