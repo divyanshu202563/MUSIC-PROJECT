@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    filter: drop-shadow(0 0 7px white);
+
+}
+
+.profile:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px white;
+}
+
+.profile-pic{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: rgb(77, 94, 145);
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(43, 24, 62);
+    font-size: 27px;
+    font-weight: 800;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.para{
+    color: black;
+}
+.info{
+display:none;
+z-index: 1000;
+position: absolute;
+top: 7vh;
+    left: 153vh;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.6);
+width: 30vb;
+    height: 19vh;
+border:2px solid black;
+border-radius: 5px;
+backdrop-filter: blur(10px);
+}
+.nav {
+    text-decoration: none;
+    color: b0lack;
+    font-size: 20px;
+}
+
+.nav:hover {
+    text-shadow: 2px 2px 12px rgb(255, 255, 255);
+    transform: translateY(5px);
+    transform: scale(1.2);
+    transition: all 0.2s ease-out;
+}
+.header {
+    height: 60px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#001219;
+    border-radius: 0px;
+    border-width: 6px;
+    border-color: black;
+    opacity: 0.95;
+    position: relative;
+
+}
+
+.logo {
+    margin-right: 50vb;
+    margin-left: 20vb;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+    /* font-style: italic; */
+    text-shadow: 0px 0px 7px white;
+    width: 45vb;
+    display:inline-block
+
+
+
+}
+.logout{
+    display: flex;
+}
+
+.nav {
+    margin-right: 34px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.ed{
+    /* background-color: #343434; */
+    display: flex;
+    border: 3px solid white;
+    border-radius: 8px;
+    background-image: url(2.jpeg);
+    background-size: cover;
+    /* background-color: rgba(0, 0, 0, 0);    ;
+    backdrop-filter:blur(200px);
+    -webkit-backdrop-filter: blur(10px); */
+    
+    
+}
+.details{
+    display: flex;
+    /* justify-content: end; */
+    /* justify-content: center; */
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+    scale: 0.97;
+    font-family: "Poppins", sans-serif;
+    
+}
+.edinfo{
+    display: block;
+    /* /* justify-content: start; */
+    margin-left: 20px;
+    border: 3px solid white;
+    height: 303px;
+    margin-top: 4vh;
+    margin-right: 3vh;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 10px white);
+} 
+.edheading{
+    margin-top: 31px;
+    margin-bottom: 20px;
+    margin-left: 18px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.edimg{
+    margin: 30px;
+    border-radius: 15px;
+    border: 5px solid white;
+    filter: drop-shadow(0 0 7px white);
+}
+.para{
+    color: white;
+    text-decoration: underline;
+}
+body{
+    /* background: linear-gradient(to right, #1a1a1a, #331111, #1a1a1a); */
+    background-color: black;
+}
+.edcontent{
+    /* border: 3px solid white;*/
+    margin-top: 20px;
+} 
+
+.contentH{
+    font-family: "Poppins", sans-serif; 
+    text-align: center;
+    border: 2px solid white;
+    border-radius:20px;
+    color: black;
+    background-color: white;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 7px white);
+
+}
+.shapeofyou{
+    border: 10px solid #28282B;
+    width: 21vw;
+    height: 40vh;
+    display: block;
+    /* justify-content: center; */
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: #343434;
+    filter: drop-shadow(0 0 7px white);
+    
+}
+/* .shape {
+    margin-top: 30px;
+} */
+audio input{
+    border-radius:5px;
+}
+.layout{
+    border: 3px solid white;
+    height: 12vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28282B;
+}
+
+.play{
+    position: fixed;
+    left: 48vw;
+    bottom: 3vh;
+    border-radius: 50%;
+    transition: all 1s ease-in;
+    z-index: 10;
+    
+}
+.play:hover{
+    transition: all 2s ease-out;
+}
+.music{
+    scale: 0.7;
+    border: 3px solid white;
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; */
+    position: relative;
+}
+.fastbackward{
+    position: fixed;
+    position: fixed;
+    bottom: 3vh;
+    left: 40vw;
+    border-radius: 50%;
+    z-index: 10;
+}
+.previouscircle{
+    position: fixed;
+    bottom: 3vh;
+    left: 44vw;
+    border-radius: 50%;
+    z-index: 10;
+}
+.fastnextcircle{
+    position: fixed;
+    bottom: 3vh;
+    left: 56vw;
+    border-radius: 50%;
+    z-index: 10;
+}
+.fastforward{
+    position: fixed;
+    bottom: 3vh;
+    left: 52vw;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    z-index: 10;
+}
+.songs{
+    display: flex;
+    
+    
+}
+/* .of{
+    border-radius: 20px;
+} */
+.shape{
+    border: 5px solid white;
+    width: 14vw;
+    height: 28vh;
+    margin-right: 2vw;
+    margin-left: 1.5vw;
+    background-image: url(shapeofyou.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10px white);
+    
+}
+.shape:hover{
+    filter: drop-shadow(0 0 7px white);
+    transition: all 0.3s ease-out;
+}
+
+.Sapphire{
+    border: 5px solid white;
+    width: 14vw;
+    height: 28vh;
+    margin-right: 2vw;
+    background-image: url(Sapphire.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 7px white);
+}
+.oldphone{
+    border: 5px solid white;
+    width: 14vw;
+    height: 28vh;
+    margin-right: 2vw;
+    background-image: url(f1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 7px white);
+}
+.Aizzam{
+    border: 5px solid white;
+    width: 14vw;
+    height: 28vh;
+    margin-right: 2vw;
+    background-image: url(Aizzam.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 7px white);
+}
+.x{
+    border: 5px solid white;
+    width: 14vw;
+    height: 28vh;
+    margin-right: 2vw;
+    background-image: url(oldphone.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 7px white);
+}
+.f1{
+    border: 5px solid white;
+    width: 14vw;
+    height: 28vh;
+    margin-right: 2vw;
+    background-image: url(x.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 7px white);
+}
