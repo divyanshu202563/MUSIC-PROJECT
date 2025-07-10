@@ -2,6 +2,7 @@
 let info = document.querySelector(".info");
 let button = document.querySelector(".profile-pic");
 let biousername = document.querySelector("#bio-username")
+let bioname = document.querySelector("#bio-name")
 
 button.addEventListener("click", () => {
     info.style.display = "block";
@@ -14,19 +15,12 @@ window.addEventListener("click", (event) => {
 
 });
 
- let username = pompt("ENTER YOUR NAME");
 
-function checkusername() {
-    
-
-    if (username === null || username === "") {
-        // handle empty or cancelled input here
-        checkusername()
-    }
-}
-
-
-checkusername()
+let nameValue = localStorage.getItem("name");
+let usernameValue = localStorage.getItem("username");
 
 
 
+
+biousername.innerHTML = usernameValue
+bioname.innerHTML = nameValue
