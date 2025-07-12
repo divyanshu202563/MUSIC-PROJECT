@@ -19,9 +19,10 @@ if (button && info) {
 let nameValue = localStorage.getItem("name");
 let usernameValue = localStorage.getItem("username");
 
-if (biousername) {
+if (biousername && usernameValue !== null) {
     biousername.innerHTML = usernameValue;
 }
-if (bioname) {
+if (bioname && nameValue !== null) {
     bioname.innerHTML = nameValue;
 }
+
