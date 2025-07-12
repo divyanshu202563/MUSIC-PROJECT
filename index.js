@@ -20,9 +20,9 @@ let nameValue = localStorage.getItem("name");
 let usernameValue = localStorage.getItem("username");
 
 if (biousername && usernameValue !== null) {
-    biousername.innerHTML = usernameValue;
+    biousername.innerText = usernameValue;
 }
 if (bioname && nameValue !== null) {
-    bioname.innerHTML = nameValue;
+    bioname.innerText = nameValue;
 }
 
