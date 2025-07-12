@@ -249,12 +249,13 @@ body {
 }
 
 .bio{
-     font-family: "Poppins", sans-serif;
+    
   font-weight: 700;
   font-style: normal;
   color: rgb(255, 255, 255);
   font-size: 23px;
   list-style: none;
+
  
 }
 
